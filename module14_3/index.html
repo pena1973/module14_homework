@@ -1,0 +1,45 @@
+<!-- Напишите код приложения, интерфейс которого представляет собой input и кнопку. В input можно ввести любое число. При клике на кнопку происходит следующее:
+
+Если число не попадает в диапазон от 1 до 10 — выводить ниже текст «число вне диапазона от 1 до 10».
+Если число попадает в диапазон от 1 до 10 — сделать запрос c помощью XHR по URL https://picsum.photos/v2/list?limit=10, где get-параметр limit — это введённое число.
+Пример. Если пользователь ввёл 5, то запрос будет вида: https://picsum.photos/v2/list?limit=5.
+После получения данных вывести ниже картинки на экран.
+
+Подсказка
+
+Получение данных из input:
+
+const value = document.querySelector('input').value; -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="my">
+        <span> Задача 14-3 </span>
+        <input class="elem inp" type="text">
+        <button class=" elem btn">Запрос данных</button>
+        <div class="elem res">Результат</div>
+  </div>      
+        <div class="rowBlocksWrapper">
+            <div class="alignBlocksWrapper">
+                <div class="profBlocksWrapper">
+                </div>
+            </div>
+        </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

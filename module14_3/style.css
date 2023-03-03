@@ -1,0 +1,21 @@
+body{
+    padding: 50px;    
+}
+.my{
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+}
+.elem{
+ margin: 10px;    
+}
+
+.btn{
+    width: 176px;
+   }
+
+   .result{
+    width: 200px;
+   }

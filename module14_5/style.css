@@ -1,0 +1,36 @@
+body{
+    padding: 50px;    
+}
+.my{
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+}
+.elem{
+ margin: 10px;   
+ width: 100px; 
+}
+.res{
+    width: 100%; 
+    color: brown;
+}
+
+
+
+.btn{
+    width: 176px;
+   }
+
+   .result{
+    width: 200px;
+   }
+
+   input:invalid {
+    border: 1px solid brown;
+  }
+  
+  input:valid {
+    border: 1px solid gray;
+  }
